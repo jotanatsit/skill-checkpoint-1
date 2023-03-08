@@ -1,0 +1,12 @@
+.portfolio-heading {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 59px;
+}
+
+.portfolio-see-more {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 25px;
+   color: rgba(34, 34, 34, 0.5);
+}
