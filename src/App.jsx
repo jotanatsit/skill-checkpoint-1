@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { Header } from './components/Header'
-import { Profile } from './components/Profile'
-import { Portfolio } from './components/Portfolio'
-import { ReasonHiring } from './components/ReasonHiring'
-import { Footer } from './components/Footer'
+import { Header } from './components/Header.jsx'
+import { Profile } from './components/Profile.jsx'
+import { Portfolio } from './components/Portfolio.jsx'
+import { ReasonHiring } from './components/ReasonHiring.jsx'
+import { Footer } from './components/Footer.jsx'
 
 
 function App() {
