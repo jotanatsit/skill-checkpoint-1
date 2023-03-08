@@ -1,0 +1,10 @@
+/** all common style */
+.App {
+   background: #FAF4F2;
+}
+
+.common-font-style {
+   font-family: 'Poppins';
+   font-style: normal;
+   color: #222222;
+}
