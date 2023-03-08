@@ -5,6 +5,8 @@ import { Header } from './components/Header'
 import { Profile } from './components/Profile'
 import { Portfolio } from './components/Portfolio'
 import { ReasonHiring } from './components/ReasonHiring'
+import { Footer } from './components/Footer'
+
 
 function App() {
 
@@ -14,6 +16,7 @@ function App() {
          <Profile />
          <ReasonHiring />
          <Portfolio />
+         <Footer />
       </div>
    )
 }
