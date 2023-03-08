@@ -4,6 +4,7 @@ import './App.css'
 import { Header } from './components/Header'
 import { Profile } from './components/Profile'
 import { Portfolio } from './components/Portfolio'
+import { ReasonHiring } from './components/ReasonHiring'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <div className="App">
          <Header />
          <Profile />
+         <ReasonHiring />
          <Portfolio />
       </div>
    )
