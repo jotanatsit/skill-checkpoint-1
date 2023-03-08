@@ -1,8 +1,12 @@
 import { Flex, SimpleGrid, Card, CardHeader, CardBody, Image, Text } from "@chakra-ui/react";
 import "../componentsStyle/ReasonHiring.css"
+import communicate from '/icons/reason-section/communicate.png'
+import professional from '/icons/reason-section/professional.png'
+import collaboration from '/icons/reason-section/collaboration.png'
+import client from '/icons/reason-section/client.png'
 
 export function ReasonHiring() {
-   const icons = ["communicate", "professional", "collaboration", "client"]
+   const icons = [communicate, professional, collaboration, client]
    const cardHeader = ["Communicative", "Professional", "Collaborative", "Client’s Favourite"]
 
    return (
@@ -13,7 +17,7 @@ export function ReasonHiring() {
                return (
                   <Card key={index} borderRadius="50px" >
                      <CardHeader display="flex" flexDirection="column" alignItems="center">
-                        <Image src={`../src/icons/reason-section/${icons[index]}.png`} borderRadius="100%" boxSize="10.89vh" />
+                        <Image src={icons[index]} borderRadius="100%" boxSize="10.89vh" />
                         <Text className="card-heading-text common-font-style">{item}</Text>
                      </CardHeader>
                      <CardBody>

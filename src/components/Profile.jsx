@@ -1,9 +1,14 @@
 import { Flex, Image, Box, Button, Text } from '@chakra-ui/react'
 import "../componentsStyle/Profile.css"
+import facebook from '/icons/profile-section/facebook.png'
+import twitter from '/icons/profile-section/twitter.png'
+import instagram from '/icons/profile-section/instagram.png'
+import telegram from '/icons/profile-section/telegram.png'
 
 
 export function Profile() {
-   const icons = ["facebook", "twitter", "instagram", "telegram"]
+   const icons = [facebook, twitter, instagram, telegram]
+   const alt = ["facebook", "twitter", "instagram", "telegram"]
    return (
       <Flex>
          <Flex
@@ -28,9 +33,9 @@ export function Profile() {
             <Flex className='social-media'>
                <Text className='follow-me common-font-style'>Follow me</Text>
                <Flex justify="space-between" w="16.67vw">
-                  {icons.map((i, index) => {
+                  {icons.map((item, index) => {
                      return (
-                        <Image key={index} src={`../src/icons/profile-section/${i}.png`} alt={i} borderRadius="100%" _hover={{ boxShadow: "outline", }} />
+                        <Image key={index} src={item} alt={alt[index]} borderRadius="100%" _hover={{ boxShadow: "outline", }} />
                      )
                   })}
                </Flex>
