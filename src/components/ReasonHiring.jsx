@@ -1,5 +1,9 @@
 import { Flex, SimpleGrid, Card, CardHeader, CardBody, Image, Text } from "@chakra-ui/react";
 import "../componentsStyle/ReasonHiring.css"
+import "../icons/reason-section/communicate.svg"
+import "../icons/reason-section/professional.svg"
+import "../icons/reason-section/collaboration.svg"
+import "../icons/reason-section/client.svg"
 
 export function ReasonHiring() {
    const icons = ["communicate", "professional", "collaboration", "client"]

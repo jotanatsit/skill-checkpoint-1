@@ -1,5 +1,9 @@
 import { Flex, Image, Box, Button, Text } from '@chakra-ui/react'
 import "../componentsStyle/Profile.css"
+import "../icons/profile-section/facebook.svg"
+import "../icons/profile-section/twitter.svg"
+import "../icons/profile-section/instagram.svg"
+import "../icons/profile-section/telegram.svg"
 
 
 export function Profile() {

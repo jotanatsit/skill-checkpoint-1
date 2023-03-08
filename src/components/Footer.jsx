@@ -1,10 +1,13 @@
 import { Flex, Image, Text } from '@chakra-ui/react'
 import "../componentsStyle/Footer.css"
+import "../icons/footer-section/squircle.svg"
+import "../icons/footer-section/instagram.svg"
+import "../icons/footer-section/telegram.svg"
 
 export function Footer() {
    return (
       <Flex bg="#F1F1F1" h="18.89vh" w="100%" justify="space-around" align="center" mt="8.89vh">
-         <Flex w="15vw" justify="space-between">
+         <Flex w="17vw" justify="space-between">
             <Image src="../src/icons/footer-section/squircle.svg" alt="mail" boxSize="2.67vh" />
             <Text className='email common-font-style'>tanatsit1500@gmail.com</Text>
          </Flex>
