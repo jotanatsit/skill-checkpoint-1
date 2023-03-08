@@ -4,7 +4,7 @@ import "../componentsStyle/Footer.css"
 export function Footer() {
    return (
       <Flex bg="#F1F1F1" h="18.89vh" w="100%" justify="space-around" align="center" mt="8.89vh">
-         <Flex w="255px" justify="space-between">
+         <Flex w="15vw" justify="space-between">
             <Image src="../src/icons/footer-section/squircle.svg" alt="mail" boxSize="2.67vh" />
             <Text className='email common-font-style'>tanatsit1500@gmail.com</Text>
          </Flex>
