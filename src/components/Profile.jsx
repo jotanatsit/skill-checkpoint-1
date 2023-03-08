@@ -1,9 +1,5 @@
 import { Flex, Image, Box, Button, Text } from '@chakra-ui/react'
 import "../componentsStyle/Profile.css"
-import "../icons/profile-section/facebook.svg"
-import "../icons/profile-section/twitter.svg"
-import "../icons/profile-section/instagram.svg"
-import "../icons/profile-section/telegram.svg"
 
 
 export function Profile() {
@@ -34,7 +30,7 @@ export function Profile() {
                <Flex justify="space-between" w="16.67vw">
                   {icons.map((i, index) => {
                      return (
-                        <Image key={index} src={`../src/icons/profile-section/${i}.svg`} alt={i} borderRadius="100%" _hover={{ boxShadow: "outline", }} />
+                        <Image key={index} src={`../src/icons/profile-section/${i}.png`} alt={i} borderRadius="100%" _hover={{ boxShadow: "outline", }} />
                      )
                   })}
                </Flex>

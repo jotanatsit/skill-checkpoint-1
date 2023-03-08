@@ -1,12 +1,5 @@
 import { Image, SimpleGrid, Flex, Text } from '@chakra-ui/react'
 import "../componentsStyle/Portfolio.css"
-import "../icons/portfolio-section/arrow-right.svg"
-import "../icons/portfolio-section/port-1.svg"
-import "../icons/portfolio-section/port-2.svg"
-import "../icons/portfolio-section/port-3.svg"
-import "../icons/portfolio-section/port-4.svg"
-import "../icons/portfolio-section/port-5.svg"
-import "../icons/portfolio-section/port-6.svg"
 
 export function Portfolio() {
    const portImage = ["port-1", "port-2", "port-3", "port-4", "port-5", "port-6"]
@@ -23,7 +16,7 @@ export function Portfolio() {
             <SimpleGrid columns={3} spacing="24px" justifyContent="center">
                {portImage.map((item, index) => {
                   return (
-                     <Image key={index} src={`../src/icons/portfolio-section/${item}.svg`} />
+                     <Image key={index} src={`../src/icons/portfolio-section/${item}.png`} />
                   )
                })}
             </SimpleGrid>
